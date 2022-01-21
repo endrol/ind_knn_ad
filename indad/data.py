@@ -10,7 +10,7 @@ from torchvision.datasets import ImageFolder
 from torchvision import transforms
 from torch.utils.data import DataLoader
 
-DATASETS_PATH = Path("./datasets")
+DATASETS_PATH = Path("/home/daming/workspace/dataset/MVTecAD")
 IMAGENET_MEAN = tensor([.485, .456, .406])
 IMAGENET_STD = tensor([.229, .224, .225])
 
